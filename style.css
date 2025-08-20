@@ -1,0 +1,53 @@
+@import url(https://db.onlinewebfonts.com/c/2ae387e9fd826eca2b02f780e91333c7?family=AkkuratMono-Regular);
+
+body {
+    background-color: #edeae4;
+}
+
+.header {
+    background-image: url("images/header.png");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 20px;
+}
+
+.card {
+    flex: 1;
+    height: 220px;
+    max-width: 494px;
+    margin: 5px;
+    line-height: 24px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: start;
+    padding-left: 25px;
+
+}
+
+.header-card {
+    font-family: "AkkuratMono";
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(50, 48, 48);
+}
