@@ -152,6 +152,7 @@ body {
 }
 .features-filters {
   position: relative;
+  bottom: 20px;
   display: flex;
   justify-content: space-between;
   background-color: #e0dacf;
